@@ -1,0 +1,36 @@
+.App {
+ text-align: center;
+ font-family: Arial;
+ background-color: #f2f2f2;
+ min-height: 100vh;
+ padding-top: 30px;
+ }
+ 
+ h1 {
+ color: darkblue;
+ }
+ 
+ table {
+ width: 90%;
+ margin: auto;
+ border-collapse: collapse;
+ background-color: white;
+ }
+ 
+ th {
+ background-color: darkblue;
+ color: white;
+ padding: 12px;
+ }
+ 
+ td {
+ padding: 10px;
+ }
+ 
+ table, th, td {
+ border: 2px solid black;
+ }
+ 
+ tr:hover {
+ background-color: lightgray;
+ }
